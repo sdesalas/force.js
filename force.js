@@ -37,7 +37,7 @@
         module.exports = factory();
     } else {
         // Browser globals
-        root.Springy = factory();
+        root.Force = factory();
     }
 }(this, function() {
 
@@ -314,5 +314,5 @@
 		return true;
 	};
 
-  return Layout;
+  return Force;
 }));
